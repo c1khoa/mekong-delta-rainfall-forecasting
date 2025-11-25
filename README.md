@@ -21,6 +21,7 @@ project/
 ```
 
 ### Chạy tiền xử lý
+Tải thư viện từ requirements ```pip install -r requirements.txt```
 
 Chạy file `src/preprocessing/main_script.py` để tạo dữ liệu đã tiền xử lý trong folder `data/preprocessed`
 
