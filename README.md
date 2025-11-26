@@ -79,10 +79,10 @@ dataloaders = get_dataloaders(
 
 # Sử dụng dataloader
 train_loader_features = dataloaders["train"]
-train_loader_rainfall = dataloaders["train"]
+val_loader_features = dataloaders["val"]
 ```
-Input shape: torch.Size([B, time_in, 24, 35, 35])
-Target shape: torch.Size([B, time_out, 24, 35, 35])
+- Input shape: torch.Size([B, time_in, 24, 35, 35])
+- Target shape: torch.Size([B, time_out, 24, 35, 35])
 ## 3. Training
 
 ### Hướng dẫn training:
