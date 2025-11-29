@@ -8,9 +8,9 @@ class PipelineTimeSeriesDataset(Dataset):
     Dataset chuẩn cho pipeline ST-model -> Decoder
     Trả về input sequence (time_in) và target multi-step (time_out)
     """
-    def __init__(self, root_dir, time_in=30, time_out=14, feature_subdir="features"):
-        self.feature_dir = os.path.join(root_dir, feature_subdir)
-        self.target_dir  = self.feature_dir  # Nếu target nằm cùng features, hoặc thay đổi thành target
+    def __init__(self, root_dir, time_in=30, time_out=14):
+        self.feature_dir = os.path.join(root_dir, "features")
+        self.target_dir  = os.path.join(root_dir, "target")
 
         self.feature_files = sorted(os.listdir(self.feature_dir))
         self.target_files  = sorted(os.listdir(self.target_dir))
@@ -78,3 +78,10 @@ def get_dataloaders(
         loaders[split] = loader
 
     return loaders
+
+loaders = get_dataloaders("../data/preprocessed")
+
+batch_x, batch_y = next(iter(loaders["train"]))
+print("Batch X:", batch_x.shape)
+print("Batch Y:", batch_y.shape)
+
