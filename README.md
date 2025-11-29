@@ -54,10 +54,17 @@ Load hàm `get_dataloaders` từ file `src/data_module.py` và sử dụng để
 #### Cấu trúc giá trị trả về:
 
 ```python
-{ 
+{
+"stage_1": { 
         "train": <DataLoader object>,
         "val":   <DataLoader object>,
         "test":  <DataLoader object>
+        }
+"stage_2": { 
+        "train": <DataLoader object>,
+        "val":   <DataLoader object>,
+        "test":  <DataLoader object>
+        }
 }
 ```
 
@@ -82,11 +89,17 @@ train_loader_features = dataloaders["train"]
 val_loader_features = dataloaders["val"]
 ```
 - Input shape: torch.Size([B, time_in, 24, 35, 35])
-- Target shape: torch.Size([B, time_out, 24, 35, 35])
+- Target shape: torch.Size([B, time_out, 1, 35, 35])
 ## 3. Training
 
 ### Hướng dẫn training:
-1. **Forward trực tiếp 2 model** rồi backward cập nhật trọng số, không train song song.
+1. **Forward trực tiếp 2 model**
+    - model 1:
+        - input (B, time_in, C, H, W)
+        - output (B, time_out, C, H, W)
+    - model 2:
+        - input (B, time_out, C, H, W)
+        - output (B, 1, C, H, W)
 
 2. **Sử dụng Jupyter Notebook** để thực hiện training
 3. **Tổ chức file**: Có thể đặt file notebook ở bất kỳ đâu để tiện ghi đường dẫn khi làm việc
