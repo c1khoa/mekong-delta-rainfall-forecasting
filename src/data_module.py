@@ -149,6 +149,3 @@ def get_dataloaders(
     print("Folder batch train (model 2):", "Input: ", x2.shape, "Output", y2.shape)
 
     return result
-
-
-
