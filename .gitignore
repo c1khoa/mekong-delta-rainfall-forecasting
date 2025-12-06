@@ -16,9 +16,6 @@ checkpoints/
 outputs/
 runs/
 logs/
-*.pt
-*.pth
-*.ckpt
 
 # Python cache
 __pycache__/
