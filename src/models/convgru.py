@@ -110,40 +110,17 @@ class ConvGRU(nn.Module):
 
 
 class ConvGRUForecaster(nn.Module):
-    def __init__(self, input_channels,
-                 hidden_dims=[64, 32, 16],
-                 kernel_size=3,
-                 dropout_rate=0.2,
-                 time_out=7):
+    def __init__(self, input_channels, hidden_dims=[64, 32, 16],
+                 kernel_size=3, dropout_rate=0.2):
         super().__init__()
-        self.time_out = time_out
-
-        # ENCODER: giống ConvGRU cũ
-        self.encoder = ConvGRU(
+        self.convgru = ConvGRU(
             input_dim=input_channels,
             hidden_dim=hidden_dims,
             kernel_size=kernel_size,
             num_layers=len(hidden_dims),
-            batch_first=True,
-            return_all_layers=True
+            batch_first=True
         )
-
-        # DECODER: nhận hidden của encoder, sinh ra chuỗi future
-        # input_dim = hidden_dim cuối
-        self.decoder = ConvGRU(
-            input_dim=hidden_dims[-1],
-            hidden_dim=hidden_dims,
-            kernel_size=kernel_size,
-            num_layers=len(hidden_dims),
-            batch_first=True,
-            return_all_layers=True
-        )
-
-        # token khởi đầu cho decoder
-        self.start_token = nn.Parameter(
-            torch.zeros(1, hidden_dims[-1], 1, 1)
-        )
-
+        self.batch_norm = nn.BatchNorm2d(hidden_dims[-1])
         self.dropout = nn.Dropout2d(dropout_rate)
         self.output_conv = nn.Conv2d(
             in_channels=hidden_dims[-1],
@@ -155,40 +132,17 @@ class ConvGRUForecaster(nn.Module):
     def forward(self, x):
         """
         x: [B, T_in, C, H, W]
-        return: [B, time_out, C, H, W]
+        return: [B, 1, C, H, W]
         """
-        B, T_in, C, H, W = x.size()
-        device = x.device
+        layer_out, last_state = self.convgru(x)
+        # last_state là list (1 phần tử nếu return_all_layers=False)
+        # mỗi phần tử là tensor [B, hidden_dim_last, H, W]
+        h_last = last_state[0]  # [B, hidden_dims[-1], H, W]
 
-        # -------- ENCODER --------
-        encoder_outs, encoder_states = self.encoder(x)
-        # encoder_states is a list, lấy layer cuối:
-        h_enc = encoder_states[-1]        # [B, hidden_last, H, W]
+        h_last = self.batch_norm(h_last)
+        h_last = self.dropout(h_last)
+        out = self.output_conv(h_last)    # [B, C_in, H, W]
+        out = torch.sigmoid(out)
+        out = out.unsqueeze(1)            # [B, 1, C_in, H, W]
+        return out
 
-        # -------- DECODER --------
-        outputs = []
-
-        # decoder input ban đầu: start_token (giống “<GO>” token)
-        dec_in = self.start_token.expand(B, -1, H, W)  # [B, hidden_last, H, W]
-
-        # h0 cho decoder = h_enc cho mọi layer
-        # encoder_states: list các h của từng layer → dùng lại luôn
-        dec_hidden = encoder_states
-
-        for _ in range(self.time_out):
-            # decoder nhận 1 bước thời gian (T_dec = 1)
-            dec_in_step = dec_in.unsqueeze(1)          # [B,1,hidden_last,H,W]
-            dec_outs, dec_hidden = self.decoder(dec_in_step, dec_hidden)
-            # dec_outs: list 1 phần tử (layer cuối): [B,1,hidden_last,H,W]
-            h_dec_last = dec_hidden[-1]                # [B,hidden_last,H,W]
-
-            h_dec_last = self.dropout(h_dec_last)
-            feat_t = self.output_conv(h_dec_last)      # [B,C,H,W]
-            outputs.append(feat_t)
-
-            # cập nhật input cho bước tiếp theo (nếu muốn không autoregressive thì có thể dùng lại start_token)
-            dec_in = h_dec_last
-
-        # [time_out, B, C, H, W] -> [B, time_out, C, H, W]
-        outputs = torch.stack(outputs, dim=1)
-        return outputs

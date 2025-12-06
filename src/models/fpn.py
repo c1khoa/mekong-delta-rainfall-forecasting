@@ -99,4 +99,5 @@ class RainfallFPN(nn.Module):
         fpn_feat = self.fpn(c1, c2, c3) # [B,fpn_channels,H,W]
         fpn_feat = self.dropout(fpn_feat)
         out = self.head(fpn_feat)       # [B,1,H,W] rainfall (scaled)
+        out = torch.sigmoid(out)
         return out
