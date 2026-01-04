@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-
 def wrap(input, flow):
     B, C, H, W = input.size()
     device = input.device
@@ -68,7 +67,7 @@ class TrajGRU(nn.Module):
     def __init__(self,
                  time_out=14,
                  input_channels=24,
-                 hidden_channels_list=[32, 16, 16],
+                 hidden_channels_list=[16, 16, 8],
                  output_channels=24,
                  L=5,
                  dropout_rate=0.2):

@@ -1,0 +1,4214 @@
+[
+  {
+    "year": 2025,
+    "month": 1,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 1.4575165510177612,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 1.4365906715393066,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 1.4364004135131836,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 1.7331411838531494,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 0.8735451102256775,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 1.3182668685913086,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 0.6263303160667419,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 1.3196264505386353,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "province": "Long An",
+    "avg_monthly_rainfall": 1.8662750720977783,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 1.0424903631210327,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 1.8027311563491821,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 1.0168389081954956,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 0.763464629650116,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 5.456631660461426,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 8.632048606872559,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 6.978000164031982,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 10.625677108764648,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 7.251870155334473,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 5.188019752502441,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 9.686760902404785,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 8.592997550964355,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "province": "Long An",
+    "avg_monthly_rainfall": 4.398539066314697,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 9.270835876464844,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 5.288492679595947,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 9.217226028442383,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 7.238925933837891,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 11.159830093383789,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 9.930046081542969,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 6.174172401428223,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 8.088415145874023,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 10.556488990783691,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 10.988548278808594,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 10.228269577026367,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 8.784661293029785,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "province": "Long An",
+    "avg_monthly_rainfall": 8.560192108154297,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 10.127894401550293,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 7.1734232902526855,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 7.52570915222168,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 8.819579124450684,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 5.197542190551758,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 6.762544631958008,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 3.1197879314422607,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 8.9359130859375,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 3.764777183532715,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 4.771525859832764,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 3.7649312019348145,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 5.717219352722168,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "province": "Long An",
+    "avg_monthly_rainfall": 4.299383640289307,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 4.615981101989746,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 3.723655939102173,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 3.446342706680298,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 3.8869223594665527,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 8.396008491516113,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 10.961827278137207,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 7.297606468200684,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 7.2931599617004395,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 10.847161293029785,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 8.065439224243164,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 12.158002853393555,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 9.696361541748047,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "province": "Long An",
+    "avg_monthly_rainfall": 6.0330729484558105,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 12.112070083618164,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 6.294680595397949,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 10.017826080322266,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 9.658843040466309,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 11.791675567626953,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 11.640433311462402,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 6.964037895202637,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 9.821094512939453,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 13.204253196716309,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 11.123739242553711,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 12.487013816833496,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 10.488327026367188,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "province": "Long An",
+    "avg_monthly_rainfall": 7.460124492645264,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 11.832860946655273,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 7.157328128814697,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 9.283159255981445,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 10.680047035217285,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 11.734983444213867,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 8.225439071655273,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 4.102649211883545,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 6.816148281097412,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 10.133411407470703,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 9.196127891540527,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 9.703609466552734,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 9.699763298034668,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "province": "Long An",
+    "avg_monthly_rainfall": 5.587278842926025,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 8.725990295410156,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 4.624975204467773,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 5.525451183319092,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 6.568900108337402,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 10.178071975708008,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 7.3311991691589355,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 5.773393630981445,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 5.728311538696289,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 11.541655540466309,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 8.756619453430176,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 10.828417778015137,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 7.6890411376953125,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "province": "Long An",
+    "avg_monthly_rainfall": 5.421876430511475,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 10.108139991760254,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 5.250417232513428,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 8.570659637451172,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 9.544575691223145,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 10.586275100708008,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 9.315306663513184,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 6.916069030761719,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 8.783711433410645,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 9.58349323272705,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 10.9893159866333,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 10.479884147644043,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 9.276890754699707,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "province": "Long An",
+    "avg_monthly_rainfall": 8.193843841552734,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 10.81712818145752,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 7.5627264976501465,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 9.205493927001953,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 11.67715835571289,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 12.778785705566406,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 5.2831501960754395,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 5.15023136138916,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 4.466815948486328,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 12.488608360290527,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 12.54789924621582,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 10.036824226379395,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 8.110894203186035,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "province": "Long An",
+    "avg_monthly_rainfall": 8.269915580749512,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 7.430232524871826,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 6.403763771057129,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 6.456907749176025,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 9.355348587036133,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 10.400100708007812,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 10.484295845031738,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 6.024694919586182,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 9.126132011413574,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 10.949869155883789,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 8.039777755737305,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 11.802486419677734,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 9.527164459228516,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "province": "Long An",
+    "avg_monthly_rainfall": 4.555349349975586,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 11.667283058166504,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 4.571336269378662,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 9.337502479553223,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 8.337274551391602,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 4.376285552978516,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 5.329341411590576,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 6.5810747146606445,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 5.3996453285217285,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 4.611172199249268,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 4.2888712882995605,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 6.108953475952148,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 6.8140130043029785,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "province": "Long An",
+    "avg_monthly_rainfall": 4.879648685455322,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 7.015172958374023,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 5.32452917098999,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 8.40926456451416,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 6.6451311111450195,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 1,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 9.024724006652832,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 1,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 8.315547943115234,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 1,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 8.279240608215332,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 1,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 6.315508842468262,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 1,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 12.170514106750488,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 1,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 10.918939590454102,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 1,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 11.182451248168945,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 1,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 8.812655448913574,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 1,
+    "province": "Long An",
+    "avg_monthly_rainfall": 8.691069602966309,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 1,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 9.906643867492676,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 1,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 8.425822257995605,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 1,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 10.016719818115234,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 1,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 11.857617378234863,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 2,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 12.344322204589844,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 2,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 6.947510719299316,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 2,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 3.542922258377075,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 2,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 7.98470401763916,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 2,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 10.422042846679688,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 2,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 9.83995246887207,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 2,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 9.520721435546875,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 2,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 9.917627334594727,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 2,
+    "province": "Long An",
+    "avg_monthly_rainfall": 5.786413669586182,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 2,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 7.439999103546143,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 2,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 4.313441276550293,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 2,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 4.729666709899902,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 2,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 5.7759785652160645,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 3,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 7.5221076011657715,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 3,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 6.095711708068848,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 3,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 5.459928035736084,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 3,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 4.61383056640625,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 3,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 7.9634504318237305,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 3,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 5.8744096755981445,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 3,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 8.439858436584473,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 3,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 5.946659564971924,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 3,
+    "province": "Long An",
+    "avg_monthly_rainfall": 4.442969799041748,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 3,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 8.248194694519043,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 3,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 4.6010847091674805,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 3,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 7.84752082824707,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 3,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 6.711428642272949,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 4,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 11.266191482543945,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 4,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 8.886749267578125,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 4,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 6.323057651519775,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 4,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 9.417431831359863,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 4,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 12.2866849899292,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 4,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 10.10876178741455,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 4,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 11.356331825256348,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 4,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 9.185799598693848,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 4,
+    "province": "Long An",
+    "avg_monthly_rainfall": 6.004075050354004,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 4,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 9.631555557250977,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 4,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 5.608890056610107,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 4,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 8.512617111206055,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 4,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 9.661285400390625,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 5,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 11.471685409545898,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 5,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 4.264125823974609,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 5,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 8.218961715698242,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 5,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 5.321783065795898,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 5,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 9.666515350341797,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 5,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 11.391300201416016,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 5,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 7.427697658538818,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 5,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 8.373692512512207,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 5,
+    "province": "Long An",
+    "avg_monthly_rainfall": 8.597599029541016,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 5,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 6.189877986907959,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 5,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 8.275091171264648,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 5,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 8.436328887939453,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 5,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 10.750541687011719,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 6,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 10.989323616027832,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 6,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 9.755656242370605,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 6,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 9.922211647033691,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 6,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 7.44382905960083,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 6,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 10.777097702026367,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 6,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 11.531946182250977,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 6,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 10.367715835571289,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 6,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 7.811114311218262,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 6,
+    "province": "Long An",
+    "avg_monthly_rainfall": 9.052172660827637,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 6,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 10.735102653503418,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 6,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 9.161248207092285,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 6,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 11.504637718200684,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 6,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 12.563119888305664,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 7,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 9.71629810333252,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 7,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 5.309605598449707,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 7,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 6.227199554443359,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 7,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 7.8217082023620605,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 7,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 8.618351936340332,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 7,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 9.145052909851074,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 7,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 6.794942378997803,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 7,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 9.051583290100098,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 7,
+    "province": "Long An",
+    "avg_monthly_rainfall": 7.515759468078613,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 7,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 5.65863037109375,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 7,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 6.918740749359131,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 7,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 6.483890533447266,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 7,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 8.477327346801758,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 8,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 10.209687232971191,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 8,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 6.337270259857178,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 8,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 8.890331268310547,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 8,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 5.66542387008667,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 8,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 8.704296112060547,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 8,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 10.837119102478027,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 8,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 7.411860942840576,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 8,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 7.495749473571777,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 8,
+    "province": "Long An",
+    "avg_monthly_rainfall": 8.765154838562012,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 8,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 7.928957939147949,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 8,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 8.480809211730957,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 8,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 9.815690040588379,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 8,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 10.397871971130371,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 9,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 11.746935844421387,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 9,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 8.284072875976562,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 9,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 5.810245990753174,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 9,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 9.808760643005371,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 9,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 12.36518383026123,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 9,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 10.980931282043457,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 9,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 10.072154998779297,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 9,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 8.99636173248291,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 9,
+    "province": "Long An",
+    "avg_monthly_rainfall": 5.735072135925293,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 9,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 7.934136867523193,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 9,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 5.81674337387085,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 9,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 6.79418420791626,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 9,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 10.99987506866455,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 10,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 7.288529396057129,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 10,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 5.120214462280273,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 10,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 8.757889747619629,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 10,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 8.689894676208496,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 10,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 8.577733039855957,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 10,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 7.502936840057373,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 10,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 6.875925064086914,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 10,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 8.121421813964844,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 10,
+    "province": "Long An",
+    "avg_monthly_rainfall": 8.09718132019043,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 10,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 5.6689300537109375,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 10,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 10.034427642822266,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 10,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 7.775778293609619,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 10,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 9.951210021972656,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 11,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 12.224842071533203,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 11,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 10.392334938049316,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 11,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 9.55385684967041,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 11,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 8.760923385620117,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 11,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 11.661115646362305,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 11,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 12.2166109085083,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 11,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 10.986355781555176,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 11,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 9.116632461547852,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 11,
+    "province": "Long An",
+    "avg_monthly_rainfall": 10.930081367492676,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 11,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 10.396615028381348,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 11,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 11.384758949279785,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 11,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 9.336904525756836,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 11,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 12.66132640838623,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 12,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 12.037099838256836,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 12,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 8.687607765197754,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 12,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 5.674780368804932,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 12,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 11.122456550598145,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 12,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 10.994240760803223,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 12,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 11.200124740600586,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 12,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 9.159943580627441,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 12,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 9.965603828430176,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 12,
+    "province": "Long An",
+    "avg_monthly_rainfall": 8.419276237487793,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 12,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 5.923309326171875,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 12,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 7.979193687438965,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 12,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 4.738888263702393,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2026,
+    "month": 12,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 8.04074764251709,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 1,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 11.64791202545166,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 1,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 8.132929801940918,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 1,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 9.591230392456055,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 1,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 8.174271583557129,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 1,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 10.694729804992676,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 1,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 11.926602363586426,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 1,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 9.228652000427246,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 1,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 6.58644962310791,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 1,
+    "province": "Long An",
+    "avg_monthly_rainfall": 10.613048553466797,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 1,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 9.60692024230957,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 1,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 11.03971004486084,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 1,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 9.846385955810547,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 1,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 11.273231506347656,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 2,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 12.002220153808594,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 2,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 11.004216194152832,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 2,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 7.473617076873779,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 2,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 10.484176635742188,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 2,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 12.983498573303223,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 2,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 12.591774940490723,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 2,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 12.128422737121582,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 2,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 9.172584533691406,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 2,
+    "province": "Long An",
+    "avg_monthly_rainfall": 9.50284481048584,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 2,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 9.427973747253418,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 2,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 9.593405723571777,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 2,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 7.016647815704346,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 2,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 12.729165077209473,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 3,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 10.084603309631348,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 3,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 6.605750560760498,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 3,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 8.57944107055664,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 3,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 4.607951641082764,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 3,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 8.380882263183594,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 3,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 8.050996780395508,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 3,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 7.306429386138916,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 3,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 7.794848442077637,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 3,
+    "province": "Long An",
+    "avg_monthly_rainfall": 6.317197322845459,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 3,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 7.249533176422119,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 3,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 7.966965675354004,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 3,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 8.525816917419434,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 3,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 8.510878562927246,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 4,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 5.56296968460083,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 4,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 9.368794441223145,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 4,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 6.7614874839782715,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 4,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 7.303526401519775,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 4,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 8.807076454162598,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 4,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 6.343856334686279,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 4,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 10.025680541992188,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 4,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 4.8018975257873535,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 4,
+    "province": "Long An",
+    "avg_monthly_rainfall": 4.725565433502197,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 4,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 9.82155990600586,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 4,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 5.926391124725342,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 4,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 7.751589775085449,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 4,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 10.125131607055664,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 5,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 9.770394325256348,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 5,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 11.730881690979004,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 5,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 7.772732734680176,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 5,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 12.631986618041992,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 5,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 13.539395332336426,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 5,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 12.065784454345703,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 5,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 11.701525688171387,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 5,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 9.489996910095215,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 5,
+    "province": "Long An",
+    "avg_monthly_rainfall": 11.124598503112793,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 5,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 8.711127281188965,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 5,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 11.179766654968262,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 5,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 6.896780967712402,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 5,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 10.694181442260742,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 6,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 13.629101753234863,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 6,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 11.698615074157715,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 6,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 9.266315460205078,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 6,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 11.20510196685791,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 6,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 12.641382217407227,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 6,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 13.335275650024414,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 6,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 11.991095542907715,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 6,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 11.183048248291016,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 6,
+    "province": "Long An",
+    "avg_monthly_rainfall": 11.59937858581543,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 6,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 11.861770629882812,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 6,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 11.460498809814453,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 6,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 9.977940559387207,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 6,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 12.741093635559082,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 7,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 11.601627349853516,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 7,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 10.992053985595703,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 7,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 6.721336841583252,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 7,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 11.458487510681152,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 7,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 10.590910911560059,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 7,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 10.969889640808105,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 7,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 10.423258781433105,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 7,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 10.584925651550293,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 7,
+    "province": "Long An",
+    "avg_monthly_rainfall": 10.043591499328613,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 7,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 8.763542175292969,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 7,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 9.486024856567383,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 7,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 6.305721282958984,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 7,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 9.764510154724121,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 8,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 10.835929870605469,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 8,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 8.071598052978516,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 8,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 9.004693031311035,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 8,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 8.648163795471191,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 8,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 9.913161277770996,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 8,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 10.583099365234375,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 8,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 8.774588584899902,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 8,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 8.52138900756836,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 8,
+    "province": "Long An",
+    "avg_monthly_rainfall": 9.27604866027832,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 8,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 8.674788475036621,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 8,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 9.662863731384277,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 8,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 9.443806648254395,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 8,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 9.590693473815918,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 9,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 4.674159049987793,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 9,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 7.93963098526001,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 9,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 6.6830925941467285,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 9,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 6.219801425933838,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 9,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 5.541621208190918,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 9,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 5.4847893714904785,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 9,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 7.047353744506836,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 9,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 3.782633066177368,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 9,
+    "province": "Long An",
+    "avg_monthly_rainfall": 4.48176383972168,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 9,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 8.835638046264648,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 9,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 5.393492698669434,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 9,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 8.080950736999512,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 9,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 8.612727165222168,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 10,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 8.244599342346191,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 10,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 11.601310729980469,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 10,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 8.336404800415039,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 10,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 10.45462417602539,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 10,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 12.19178295135498,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 10,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 9.457967758178711,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 10,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 12.404387474060059,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 10,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 7.040344715118408,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 10,
+    "province": "Long An",
+    "avg_monthly_rainfall": 8.602059364318848,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 10,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 9.713489532470703,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 10,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 9.803740501403809,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 10,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 7.965816974639893,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 10,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 11.300485610961914,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 11,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 12.750539779663086,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 11,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 10.928086280822754,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 11,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 9.362411499023438,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 11,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 10.983847618103027,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 11,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 12.055434226989746,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 11,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 12.816665649414062,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 11,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 11.350650787353516,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 11,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 10.275266647338867,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 11,
+    "province": "Long An",
+    "avg_monthly_rainfall": 10.30048942565918,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 11,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 11.837557792663574,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 11,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 10.304244995117188,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 11,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 10.588178634643555,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 11,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 13.095090866088867,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 12,
+    "province": "An Giang",
+    "avg_monthly_rainfall": 8.726031303405762,
+    "avg_num_pixels": 64.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 12,
+    "province": "Bac Lieu",
+    "avg_monthly_rainfall": 8.840802192687988,
+    "avg_num_pixels": 42.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 12,
+    "province": "Ben Tre",
+    "avg_monthly_rainfall": 5.792622089385986,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 12,
+    "province": "Ca Mau",
+    "avg_monthly_rainfall": 10.52557373046875,
+    "avg_num_pixels": 108.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 12,
+    "province": "Can Tho city",
+    "avg_monthly_rainfall": 6.377859592437744,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 12,
+    "province": "Dong Thap",
+    "avg_monthly_rainfall": 8.28094482421875,
+    "avg_num_pixels": 63.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 12,
+    "province": "Hau Giang",
+    "avg_monthly_rainfall": 6.739282131195068,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 12,
+    "province": "Kien Giang",
+    "avg_monthly_rainfall": 8.8109712600708,
+    "avg_num_pixels": 240.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 12,
+    "province": "Long An",
+    "avg_monthly_rainfall": 7.653187274932861,
+    "avg_num_pixels": 72.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 12,
+    "province": "Soc Trang",
+    "avg_monthly_rainfall": 6.782340049743652,
+    "avg_num_pixels": 56.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 12,
+    "province": "Tien Giang",
+    "avg_monthly_rainfall": 7.721221923828125,
+    "avg_num_pixels": 40.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 12,
+    "province": "Tra Vinh",
+    "avg_monthly_rainfall": 5.3694586753845215,
+    "avg_num_pixels": 36.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  },
+  {
+    "year": 2027,
+    "month": 12,
+    "province": "Vinh Long",
+    "avg_monthly_rainfall": 7.259793281555176,
+    "avg_num_pixels": 24.0,
+    "stage1_model": "ConvGRU",
+    "stage2_model": "FPN"
+  }
+]

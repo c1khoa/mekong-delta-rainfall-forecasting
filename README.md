@@ -1,144 +1,108 @@
-# Hướng dẫn sử dụng
+# Mekong Delta Rainfall Forecasting
 
-## 1. Tiền xử lý dữ liệu
+## Project Overview
+This project focuses on **spatio-temporal rainfall forecasting** in the Mekong Delta, Vietnam, using multi-source remote sensing and meteorological data. The Mekong Delta is a critical agricultural region that is highly vulnerable to climate change, droughts, and floods. Accurate rainfall prediction is therefore essential for water resource management, agriculture planning, and disaster early warning systems.
 
-Clone repository từ GitHub: https://github.com/c1khoa/CS313-data-mining
+Instead of directly predicting rainfall from current observations, we propose a **two-stage deep learning framework** that reflects the natural physical process of rainfall formation.
 
-### Cấu trúc thư mục dự án
+---
 
-```
-project/
-├── notebooks/              # Chứa các Jupyter Notebook
-│   ├── crawl/             # Notebook để thu thập dữ liệu (data crawling)
-│   ├── eda/               # Notebook phân tích dữ liệu khám phá
-│   └── modeling/          # Notebook thử nghiệm và huấn luyện mô hình
-├── models/                # Chứa mô hình đã huấn luyện và các định nghĩa mô hình
-├── src/                   # Chứa source code
-│   └── preprocessing/     # Script xử lý dữ liệu
-├── data/                  # Chứa dữ liệu dự án
-│   ├── raw/              # Dữ liệu gốc, chưa qua xử lý
-│   └── preprocessed/     # Dữ liệu đã được tiền xử lý (tạo sau khi chạy script)
-```
+## Data Sources
+The dataset is collected for the period **01/01/2019 – 31/12/2024** using the **Google Earth Engine (GEE)** API, combining three main data sources:
 
-### Chạy tiền xử lý
-Tải thư viện từ requirements ```pip install -r requirements.txt```
+### Remote Sensing
+- **Sentinel-1 (SAR)**  
+  - C-band radar, all-weather capability  
+  - Resolution: 10 m  
+  - Polarizations: VV, VH  
+  - Useful for soil moisture, floods, and surface water detection
 
-Chạy file `src/preprocessing/main_script.py` để tạo dữ liệu đã tiền xử lý trong folder `data/preprocessed`
+- **Sentinel-2 (Optical)**  
+  - 13 multispectral bands (10–60 m resolution)  
+  - Vegetation indices (NDVI, NDWI), surface reflectance, radiation features  
 
-```bash
-python src/preprocessing/main_script.py
-```
+### Meteorological Reanalysis
+- **ERA5**  
+  - Temperature, dew point, wind, surface pressure, soil moisture  
+- **GLDAS**  
+  - Land surface variables: evaporation, energy balance, soil temperature  
 
-## 2. Chuẩn bị dữ liệu
+### Target Variable
+- **Rainfall** represented as a single-channel spatial grid `(1, H, W)`
 
-### Định nghĩa các thông số
+---
 
-#### Dataset:
-- `time_in`: Số ngày input cần thiết để mô hình dự đoán ngày tiếp theo (mặc định: 30)
-- `time_out`: Số ngày mô hình sẽ dự đoán ra (mặc định: 14)
+## Exploratory Data Analysis (EDA)
+- Seasonal rainfall patterns clearly show the **dry season (May–November)** and **rainy season**
+- Aerosol Optical Thickness (AOT) peaks in April due to post-harvest straw burning
+- Rainfall intensity increases significantly toward the late dry season
 
-#### Dataloader:
-- `path`: Đường dẫn đến folder `data/preprocessed` (cần setting cho phù hợp với cấu trúc thư mục của anh em)
-- `time_in`: 30
-- `time_out`: 14
-- `batch_size_1`: 8
-- `batch_size_2`: 16
-- `num_workers`: 4
-- `pin_memory`: True
-- `drop_last`: False
+---
 
-### Sử dụng DataLoader
+## Data Preprocessing
+Key preprocessing steps include:
 
-Load hàm `get_dataloaders` từ file `src/data_module.py` và sử dụng để train.
+- **Handling missing values**
+  - Removing features with excessive null values (e.g., Sentinel-2 features before 2022)
+- **Dimensionality Reduction**
+  - Principal Component Analysis (PCA) is applied to highly correlated features to reduce multicollinearity
+- **Normalization**
+  - Robust Scaling to mitigate extreme values  
+  - Min-Max Scaling to map all features into the range `[0, 1]`
+- **Data Splitting (Chronological)**
+  - Train: 2019 – 2023  
+  - Validation: 01/2024 – 06/2024  
+  - Test: 07/2024 – 12/2024  
 
-#### Cấu trúc giá trị trả về:
+---
 
-```python
-{
-"stage_1": { 
-        "train": <DataLoader object>,
-        "val":   <DataLoader object>,
-        "test":  <DataLoader object>
-        }
-"stage_2": { 
-        "train": <DataLoader object>,
-        "val":   <DataLoader object>,
-        "test":  <DataLoader object>
-        }
-}
-```
+## Methodology: Two-Stage Framework
 
-#### Ví dụ sử dụng:
+### Stage 1 – Future Feature Prediction
+Predict future meteorological and surface features using **spatio-temporal deep learning models**:
 
-```python
-from src.data_module import get_dataloaders
+- **ConvLSTM**
+- **ConvGRU**
+- **TrajGRU**
 
-dataloaders = get_dataloaders(
-    path="data/preprocessed",
-    time_in=30,
-    time_out=14,
-    batch_size_1=8,
-    batch_size_2=16,
-    num_workers=4,
-    pin_memory=True,
-    drop_last=False
-)
+These models learn both spatial structures and temporal dynamics from multi-channel tensor inputs `(C, H, W)`.
 
-# Sử dụng dataloader
-train_loader_features = dataloaders["train"]
-val_loader_features = dataloaders["val"]
-```
-- Input shape: torch.Size([B, time_in, 24, 35, 35])
-- Target shape: torch.Size([B, time_out, 1, 35, 35])
-## 3. Training
+---
 
-### Hướng dẫn training:
-1. **Forward trực tiếp 2 model**
-    - model 1:
-        - input (B, time_in, C, H, W)
-        - output (B, time_out, C, H, W)
-    - model 2:
-        - input (B, time_out, C, H, W)
-        - output (B, 1, C, H, W)
+### Stage 2 – Rainfall Map Reconstruction
+Map predicted future features to rainfall intensity using encoder–decoder architectures:
 
-2. **Sử dụng Jupyter Notebook** để thực hiện training
-3. **Tổ chức file**: Có thể đặt file notebook ở bất kỳ đâu để tiện ghi đường dẫn khi làm việc
-4. **Sau khi hoàn thành**:
-   - Chuyển file notebook về folder `notebooks/modeling/`
-   - Mỗi file notebook nên train một cặp model
-   - Lưu file model đã train vào folder `models/`
+- **U-Net**
+- **Feature Pyramid Network (FPN)**
+- **U-Net 3+**
 
-### Quy trình training:
+The output is a high-resolution 2D rainfall map representing spatial precipitation distribution.
 
-```python
-# 1. Load dữ liệu
-dataloaders = get_dataloaders(...)
+---
 
-# 2. Khởi tạo model
-model = YourModel()
+## Experimental Results
 
-# 3. Training
-for epoch in range(num_epochs):
-    # Training loop
-    for batch in dataloaders["FolderTimeSeriesDataset"]["train"]:
-        # Your training code
-        pass
+### Evaluation Metrics
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
 
-# 4. Lưu model
-torch.save(model.state_dict(), 'models/your_model_name.pth')
-```
+### Performance Summary
 
-### Lưu ý:
-- Forward trực tiếp 2 model rồi backward cập nhật trọng số, không train song song.
-- Sau khi training xong, nhớ lưu model vào folder `models/`
-- Đặt tên file model có ý nghĩa để dễ quản lý
-- Ghi chú lại các hyperparameters và kết quả trong notebook
+| Stage 1 | Stage 2 | MAE | RMSE |
+|------|------|------|------|
+| ConvLSTM | U-Net | 2.84 | 3.47 |
+| ConvLSTM | FPN | 2.52 | 3.64 |
+| ConvLSTM | U-Net 3+ | 2.02 | 2.60 |
+| ConvGRU | U-Net | 2.92 | 3.82 |
+| ConvGRU | FPN | 2.88 | 4.51 |
+| ConvGRU | U-Net 3+ | 2.33 | 2.92 |
+| **TrajGRU** | **U-Net** | **1.69** | **2.05** |
+| TrajGRU | FPN | 2.66 | 3.63 |
+| **TrajGRU** | **U-Net 3+** | **1.59** | **2.06** |
 
-## 4. Lựa chọn model
-1. Baseline: ConvLSTM + U-Net
+---
 
-2. ConvGRU + FPN: nhẹ, ổn định, train nhanh
-
-3. TrajGRU + UNet++: thông minh hơn, học được chuyển động mưa/gió, phù hợp với dữ liệu khí tượng.
-
-4. PredRNN++ + UNet++: nặng nhất nhưng khá mạnh
+## Key Findings
+- **TrajGRU** consistently outperforms ConvLSTM and ConvGRU due to its learnable trajectory mechanism
+- **U-Net 3+** achieves the best reconstruction accuracy by leveraging full-scale skip connections
+- The combination **TrajGRU + U-Net 3+** yields the best overall rainfall prediction performance

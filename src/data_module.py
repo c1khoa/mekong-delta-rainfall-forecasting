@@ -2,6 +2,7 @@ import os
 import numpy as np
 import torch
 from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import Subset
 
 class FolderTimeSeriesDataset(Dataset):
     """
@@ -129,9 +130,10 @@ def get_dataloaders(
             pin_memory=pin_memory,
             drop_last=drop_last
         )
-
         # 2) TensorTimeSeriesDataset (từng timestep)
         tensor_ds = TensorTimeSeriesDataset(split_dir)
+        if split == "test":
+            tensor_ds = Subset(tensor_ds, range(30, len(tensor_ds)))
         result["stage_2"][split] = DataLoader(
             tensor_ds,
             batch_size=batch_size_2,
