@@ -61,20 +61,18 @@ Key preprocessing steps include:
 ### Stage 1 – Future Feature Prediction
 Predict future meteorological and surface features using **spatio-temporal deep learning models**:
 
-- **ConvLSTM**
-- **ConvGRU**
-- **TrajGRU**
-
-These models learn both spatial structures and temporal dynamics from multi-channel tensor inputs `(C, H, W)`.
+- ConvLSTM
+- ConvGRU
+- TrajGRU
 
 ---
 
 ### Stage 2 – Rainfall Map Reconstruction
 Map predicted future features to rainfall intensity using encoder–decoder architectures:
 
-- **U-Net**
-- **Feature Pyramid Network (FPN)**
-- **U-Net 3+**
+- U-Net
+- Feature Pyramid Network (FPN)
+- U-Net 3+
 
 The output is a high-resolution 2D rainfall map representing spatial precipitation distribution.
 
@@ -106,3 +104,50 @@ The output is a high-resolution 2D rainfall map representing spatial precipitati
 - **TrajGRU** consistently outperforms ConvLSTM and ConvGRU due to its learnable trajectory mechanism
 - **U-Net 3+** achieves the best reconstruction accuracy by leveraging full-scale skip connections
 - The combination **TrajGRU + U-Net 3+** yields the best overall rainfall prediction performance
+
+---
+
+## Installation and Usage
+
+### Environment Setup
+
+```bash
+python -m venv venv
+```
+
+Activate the environment:
+
+- Windows:
+```bash
+venv\Scripts\activate
+```
+
+- Linux / macOS:
+```bash
+source venv/bin/activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Data Preprocessing
+
+Run the preprocessing pipeline to generate data for prediction:
+
+```bash
+python src/preprocessing/main_script.py
+```
+
+### Run the Application
+
+Launch the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+The application will be available at:
+http://localhost:8501
